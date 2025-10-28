@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="De la Cruz Francisco Dalia Lizeth">
+    <meta name="date" content="26/10/2025">
+    <meta name="description" content="ejemplo con barra lateral">
+    <meta name="keywords" content="aside, barra lateral, noticias, escuderias, campeonatos, calendario, etc">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <title>F1</title>  
+</head>
+<body>
+    <header>
+        <td>
+            <img src="fotos/logo.jpg" width="110" alt="80">
+        </td>
+        <h1><i>FÓRMULA 1 </i></h1>
+         <i>(F1)</i><br>
+        <i>Federación deportiva.</i>
+        <nav> 
+            <a href="index.html">INICIO</a>
+            <a href="pilotos.html">PILOTOS</a>
+            <a href="escuderias.html">ESCUDERIAS</a>
+            <a href="formulario.html">SUSCRIPCIONES</a>
+            <a href="desarrolador.html">DESARROLLADOR</a>
+
+        </nav>
+    </header> 
+    <main>
+
+        <form class="formulario">
+
+            <!--Datos personales-->
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre completo">
+
+        <label for="email">Correo electronico:</label>
+        <input type="email" name="email" id="email" placeholder="dalicruz@gmail.com">
+
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password" id="password" placeholder="   *******   ">
+
+        <!--Seleccion de carrera-->
+        <label for="plan">Plan que quiera contratar: </label> 
+        <select name="plan" id="plan">
+            <option value=" ">Selecciona una opcion:</option>
+            <option value="mensual">Mensual</option>
+            <option value="bimestral">Bimestral</option>
+            <option value="semestral">Semestral</option>
+            <option value="anual">Anual</option>
+        </select>
+
+        <!--Checkboxes-->
+        <div class="grupos-opciones">
+            <p>Areas de interes: </p>
+            <label><input type="checkbox" name="interes" value="entrevistas">Entrevistas</label>
+            <label><input type="checkbox" name="interes" value="camaras">Cámaras dentro del monoplaza</label>
+            <label><input type="checkbox" name="interes" value="paddock">Paddock</label>
+            <label><input type="checkbox" name="interes" value="repeticiones">Repeticiones</label>
+            <label><input type="checkbox" name="interes" value="usoneu">Uso de neumaticos</label>
+            <label><input type="checkbox" name="interes" value="boxxes">Tiempo en boxxes</label>
+            <label><input type="checkbox" name="interes" value="carreras">Carreras en vivo</label>
+            <label><input type="checkbox" name="interes" value="radios">Radios</label>
+        </div>
+
+        <!--radio buttoms-->
+        <div class="grupos-opciones">
+            <p>Paquete:</p>
+            <label><input type="radio" name="paquete" value="vip">VIP experiencia</label>
+            <label><input type="radio" name="paquete" value="distintivo">Miembro distintivo</label>
+            <label><input type="radio" name="paquete" value="exclusivo">Contenido ultra exclusivo</label>
+        </div>
+
+        <label for="mensaje">Quejas o sujerencias:</label> 
+                    <textarea id="mensaje" name="mensaje" rows="4" cols="40"></textarea>
+        <br><br>
+
+        <button type="submit">Registrarme</button>
+    </form>
+
+    <section>
+        <h2><i>REGISTRO PARA LA SUSCRIPCIÓN DE F1TV</i></h2>
+         <p>
+         Llena tus datos para poder solicitar tu suscripción a la F1TV de la cual podrás ver las tranmsiciones en vivo, 
+         poder escuchar las entrevitas, escuchar las radios de los pilotos y mas contenido  exclusivo.
+         </p><br>
+         <p>
+            Elije la opcion que mas te convenga y disfruta de la F1 en tiempo real, estate al tanto de lo que pasa en el 
+            mundo de las carreras.
+         </p><br><br>
+
+         <img src="fotos/bull.jfif" width="300" alt="180"> <br><br>
+         <img src="fotos/allp.jfif" width="300" alt="180"> <br><br>
+
+    </section>
+
+    </main>
+    <footer>
+        <p> Dalia De la Cruz © 2025 | Fórmula1</p>
+    </footer>
+</body>
+</html>

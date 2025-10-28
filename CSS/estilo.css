@@ -1,0 +1,482 @@
+/*Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #191925;
+    color: #f5f2f2; 
+    line-height: 1.5;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(90deg, #191925, #191f33);
+    color: rgb(202, 19, 19);
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: 0 2px 5px rgba(177, 8, 22, 0.2);
+}
+
+nav a {
+    color: rgb(223, 14, 14);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #f3f1ea;
+}
+
+/* 4️⃣ Tarjeta principal */
+.tarjeta {
+    background-color:#030113; /* Fondo de la tarjeta */
+    width: 80%;
+    max-width: 600px;
+    margin: 1rem auto;
+    border-radius:20px; /* Bordes redondeados */
+    box-shadow:aliceblue; /* Agrega sombra a la tarjeta */
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+/* 5️⃣ Efecto hover en la tarjeta */
+.tarjeta:hover {
+    transform:scale(1.07); /* Haz que crezca ligeramente */
+}
+
+/* 6️⃣ Título dentro de la tarjeta */
+.tarjeta h2 {
+    color:aliceblue; /* Usa un color relacionado con el header */
+    margin-bottom: 1rem;
+}
+
+/*------------------------------------------------------------*/
+.tarjeta1 {
+    background-color:#f05108; /* Fondo de la tarjeta */
+    width: 80%;
+    max-width: 600px;
+    margin: 1rem auto;
+    border-radius:20px; /* Bordes redondeados */
+    box-shadow:aliceblue; /* Agrega sombra a la tarjeta */
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+/* 5️⃣ Efecto hover en la tarjeta */
+.tarjeta1:hover {
+    transform:scale(1.07); /* Haz que crezca ligeramente */
+}
+
+/* 6️⃣ Título dentro de la tarjeta */
+.tarjeta1 h2 {
+    color:aliceblue; /* Usa un color relacionado con el header */
+    margin-bottom: 1rem;
+}
+/*------------------------------------------------------------*/
+.tarjeta2 {
+    background-color:#c42813; /* Fondo de la tarjeta */
+    width: 80%;
+    max-width: 600px;
+    margin: 1rem auto;
+    border-radius:20px; /* Bordes redondeados */
+    box-shadow:aliceblue; /* Agrega sombra a la tarjeta */
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+/* 5️⃣ Efecto hover en la tarjeta */
+.tarjeta2:hover {
+    transform:scale(1.07); /* Haz que crezca ligeramente */
+}
+
+/* 6️⃣ Título dentro de la tarjeta */
+.tarjeta2 h2 {
+    color:aliceblue; /* Usa un color relacionado con el header */
+    margin-bottom: 1rem;
+}
+/*------------------------------------------------------------*/
+.tarjeta3 {
+    background-color:#0fa18e; /* Fondo de la tarjeta */
+    width: 80%;
+    max-width: 600px;
+    margin: 1rem auto;
+    border-radius:20px; /* Bordes redondeados */
+    box-shadow:aliceblue; /* Agrega sombra a la tarjeta */
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+/* 5️⃣ Efecto hover en la tarjeta */
+.tarjeta3:hover {
+    transform:scale(1.07); /* Haz que crezca ligeramente */
+}
+
+/* 6️⃣ Título dentro de la tarjeta */
+.tarjeta3 h2 {
+    color:aliceblue; /* Usa un color relacionado con el header */
+    margin-bottom: 1rem;
+}
+/*------------------------------------------------------------*/
+.tarjeta4 {
+    background-color:#1d44f3; /* Fondo de la tarjeta */
+    width: 80%;
+    max-width: 600px;
+    margin: 1rem auto;
+    border-radius:20px; /* Bordes redondeados */
+    box-shadow:aliceblue; /* Agrega sombra a la tarjeta */
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+/* 5️⃣ Efecto hover en la tarjeta */
+.tarjeta4:hover {
+    transform:scale(1.07); /* Haz que crezca ligeramente */
+}
+
+/* 6️⃣ Título dentro de la tarjeta */
+.tarjeta4 h2 {
+    color:aliceblue; /* Usa un color relacionado con el header */
+    margin-bottom: 1rem;
+}
+/*------------------------------------------------------------*/
+.tarjeta5 {
+    background-color:#c007a7; /* Fondo de la tarjeta */
+    width: 80%;
+    max-width: 600px;
+    margin: 1rem auto;
+    border-radius:20px; /* Bordes redondeados */
+    box-shadow:aliceblue; /* Agrega sombra a la tarjeta */
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+/* 5️⃣ Efecto hover en la tarjeta */
+.tarjeta5:hover {
+    transform:scale(1.07); /* Haz que crezca ligeramente */
+}
+
+/* 6️⃣ Título dentro de la tarjeta */
+.tarjeta5 h2 {
+    color:aliceblue; /* Usa un color relacionado con el header */
+    margin-bottom: 1rem;
+}
+/*------------------------------------------------------------*/
+.tarjeta6 {
+    background-color:#4e5ea8; /* Fondo de la tarjeta */
+    width: 80%;
+    max-width: 600px;
+    margin: 1rem auto;
+    border-radius:20px; /* Bordes redondeados */
+    box-shadow:aliceblue; /* Agrega sombra a la tarjeta */
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+/* 5️⃣ Efecto hover en la tarjeta */
+.tarjeta6:hover {
+    transform:scale(1.07); /* Haz que crezca ligeramente */
+}
+
+/* 6️⃣ Título dentro de la tarjeta */
+.tarjeta6 h2 {
+    color:aliceblue; /* Usa un color relacionado con el header */
+    margin-bottom: 1rem;
+}
+/*------------------------------------------------------------*/
+.tarjeta7 {
+    background-color:#0a8667; /* Fondo de la tarjeta */
+    width: 80%;
+    max-width: 600px;
+    margin: 1rem auto;
+    border-radius:20px; /* Bordes redondeados */
+    box-shadow:aliceblue; /* Agrega sombra a la tarjeta */
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+/* 5️⃣ Efecto hover en la tarjeta */
+.tarjeta7:hover {
+    transform:scale(1.07); /* Haz que crezca ligeramente */
+}
+
+/* 6️⃣ Título dentro de la tarjeta */
+.tarjeta7 h2 {
+    color:aliceblue; /* Usa un color relacionado con el header */
+    margin-bottom: 1rem;
+}
+/*------------------------------------------------------------*/
+.tarjeta8 {
+    background-color:#eb5b41; /* Fondo de la tarjeta */
+    width: 80%;
+    max-width: 600px;
+    margin: 1rem auto;
+    border-radius:20px; /* Bordes redondeados */
+    box-shadow:aliceblue; /* Agrega sombra a la tarjeta */
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+/* 5️⃣ Efecto hover en la tarjeta */
+.tarjeta8:hover {
+    transform:scale(1.07); /* Haz que crezca ligeramente */
+}
+
+/* 6️⃣ Título dentro de la tarjeta */
+.tarjeta8 h2 {
+    color:aliceblue; /* Usa un color relacionado con el header */
+    margin-bottom: 1rem;
+}
+/*------------------------------------------------------------*/
+.tarjeta9 {
+    background-color:#12881c; /* Fondo de la tarjeta */
+    width: 80%;
+    max-width: 600px;
+    margin: 1rem auto;
+    border-radius:20px; /* Bordes redondeados */
+    box-shadow:aliceblue; /* Agrega sombra a la tarjeta */
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+/* 5️⃣ Efecto hover en la tarjeta */
+.tarjeta9:hover {
+    transform:scale(1.07); /* Haz que crezca ligeramente */
+}
+
+/* 6️⃣ Título dentro de la tarjeta */
+.tarjeta9 h2 {
+    color:aliceblue; /* Usa un color relacionado con el header */
+    margin-bottom: 1rem;
+}
+/*------------------------------------------------------------*/
+/*formulario*/
+.formulario {
+    background-color: rgb(5, 16, 53);
+    width: 330%;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0.4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/*etiquetas generales*/
+.formulario label {
+    display: block; 
+    margin-bottom: 0.5rem;
+    font-weight:bold;
+}
+
+/*Campo de entrada y select*/
+.formulario input [type="text"],
+.formulario input [type="email"],
+.formulario input [type="password"],
+.formulario select {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+} 
+
+/*Efecto focus*/
+.formulario input:focus,
+.formulario select:focus {
+    outline: none;
+    border-color: #05354e;
+    box-shadow: 0 0 4px rgba(0, 119, 182, 0.4);
+}
+
+/*Grupo de opciones (radio/checkboox*/
+.grupo-opciones {
+    margin-bottom: 1rem;
+}
+
+.grupo-opciones p {
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+}
+.grupo-opciones label {
+    display: block;
+    font-weight: normal;
+    margin-bottom: 0.3rem;
+}
+
+/*boton*/
+.formulario button {
+    width: 100%;
+    background-color: rgb(202, 19, 19);
+    color:white;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 8px;
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+/*hover button*/
+.formulario button:hover {
+    background-color: rgb(109, 15, 15);
+}
+/*------------------------------------------------------------*/
+
+.formulario1 {
+    background-color: rgb(5, 9, 24);
+    width: 200%;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0.4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/*etiquetas generales*/
+.formulario1 label {
+    display: block; 
+    margin-bottom: 0.5rem;
+    font-weight:bold;
+}
+
+/*Campo de entrada y select*/
+.formulario1 input [type="text"]
+
+/*Efecto focus*/
+.formulario1 input:focus,
+.formulario1 select:focus {
+    outline: none;
+    border-color: #05354e;
+    box-shadow: 0 0 4px rgba(0, 119, 182, 0.4);
+}
+
+/*boton*/
+.formulario1 button {
+    width: 100%;
+    background-color: rgb(202, 19, 19);
+    color:white;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 8px;
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+/*hover button*/
+.formulario1 button:hover {
+    background-color: rgb(109, 15, 15);
+}
+/*------------------------------------------------------------*/
+
+/* Estructura principal */
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* área principal + aside */
+    gap: 2rem;
+    padding: 2rem;
+}
+
+/* Contenedor de contenido principal */
+.contenido {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Secciones principales */
+section {
+    background-color: rgba(15, 14, 12, 0.815);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+/* Títulos dentro de section */
+section h2 {
+    color:rgb(202, 19, 19); 
+    margin-bottom: 1rem;
+}
+
+/* Artículos */
+article {
+    margin-bottom: 1rem;
+    border-left: 4px solid rgb(202, 19, 19);
+    padding-left: 1rem;
+}
+
+/*Boton*/
+button {
+    background-color:#7c0803;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+/* Artículos títulos */
+article h3 {
+    color:white;
+    margin-bottom: 0.5rem;
+}
+
+/* Aside */
+aside {
+    background-color: #10110f;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+aside h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    margin-bottom: 0.5rem;
+}
+
+aside ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    text-decoration:underline;
+}
+
+/* Pie de página */
+footer {
+    background-color: #191925;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+    aside {
+        order: -1; /* el aside se muestra arriba en pantallas pequeñas */
+    }
+}
